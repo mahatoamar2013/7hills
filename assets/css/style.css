@@ -1640,6 +1640,7 @@ a.linkedin-bg:hover {
   
   }
   .logo{
+   position: relative;
     padding-top: 10px;
     padding-left: 80px;
     width: 150px;
