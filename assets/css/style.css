@@ -1590,3 +1590,64 @@ a.linkedin-bg:hover {
   height: 500px;
   width: 100%
 }
+.home{
+    position: relative;
+    min-height: 100vh;
+    z-index: 0;
+  }
+  
+  .home .video-container video{
+    position: absolute;
+    top:0; left: 0;
+    height: 15%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    
+  }
+  .content h2{
+  
+    padding-top: 10%;
+    padding-left: 80px;
+    font-size: 35px;
+    white-space: pre-line;
+    color: rgb(19, 16, 16);
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    word-wrap: break-word;
+    font-family: 'Arvo', Bold;
+    transition: 0.5s;
+    margin-block-start: 3.8em;
+    margin-block-end: 0.2em;
+    
+  }
+  
+  .content h3{
+    padding-left: 80px;
+    font-size: 22px;
+    text-transform: unset;
+    letter-spacing: unset;
+    font-family: 'Arvo', ;
+    box-sizing: inherit;
+    font-weight: 400;
+    line-height: 1.5;
+    color:rgb(19, 16, 16);
+    word-wrap: break-word;
+    text-align: left;
+    box-sizing: inherit;
+    -webkit-font-smoothing: antialiased;
+  
+  }
+  .logo{
+    padding-top: 10px;
+    padding-left: 80px;
+    width: 150px;
+  }
+  
+  .master{
+    position: bottom;
+    bottom: 300px;
+    left: 16px;
+    
+  }
